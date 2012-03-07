@@ -1,0 +1,7 @@
+1.install Imagemagick
+2.gem paperclip
+3.check the install root of Imagemagick: which convert 
+  ex: usr/bin/convert
+4.add "Paperclip.options[:command_path] = "usr/bin/convert"
+  to config/enviornment/development.rb
+5.Upload and Resize Pictures.
